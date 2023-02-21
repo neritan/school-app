@@ -32,6 +32,20 @@
     "video.a0001": "VtHWsmES9yw",
     "video.a0002": "ZqFDy2prfSk",
     "video.a0003": "Ddd7fr61ONc",
-    "video.a0004": "AN6tpOQq_I0"
+    "video.a0004": "AN6tpOQq_I0",
+
+    "menu.main": "Main",
+    "menu.typeOfUser": "Type of User",
+    "menu.teacher": "Teacher",
+    "menu.student": "Student",
+    "menu.parent": "Parent",
+    "menu.sampleTest": "Sample Test",
+    "menu.signUp": "Sign UP",
+    "menu.generalDetail": "general details",
+    "menu.paymentDetails": "payment details",
+    "menu.signIn": "Sign In",
+
+    "person.name": "Name",
+    "person.surname": "Surname"
 
 }
