@@ -1,5 +1,14 @@
+.main {
+  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png");*/
+  height: 10px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 .App {
-  text-align: center;
+  text-align: left;
+  vertical-align: top;
 }
 
 .App-logo {
@@ -26,6 +35,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.language-select {
+  float: right;
+  margin-top: 0px;
+  color: white;
+}
+
+.navigation {
+  float: left;
+  margin-top: -10px;
 }
 
 @keyframes App-logo-spin {
