@@ -6,6 +6,7 @@ import { RadioButton } from "primereact/radiobutton";
 import { Button } from "primereact/button";
 import YouTube from 'react-youtube';
 import { Message } from 'primereact/message';
+import MathJax from "react-mathjax2";
 
 export default function Test() {
   const { t } = useTranslation();
@@ -60,8 +61,11 @@ export default function Test() {
             <p>
               <span>Question {currentQuestion + 1}</span>/{questions.length}
             </p>
-
-            <p>{t(questions[currentQuestion].code)}</p>
+         
+            <MathJax.Context>
+            <MathJax.Text text= {t(questions[currentQuestion].code)}></MathJax.Text>
+            </MathJax.Context>
+           
           </div>
           <div className="card flex justify-content-center">
             <div className="flex flex-column gap-5">
@@ -110,7 +114,7 @@ export default function Test() {
 				</div>					
               <p>{selectedCategory.isCorrect ? (<Message severity="success" text="Your answer is correct"/>) : (<Message severity="error" text="Your answer is  incorrect" />)}</p>
 			  <br/>
-			  <YouTube videoId={questions[currentQuestion].video} containerClassName="embed embed-youtube" opts={opts} />
+			  <YouTube videoId={t(questions[currentQuestion].video)} containerClassName="embed embed-youtube" opts={opts} />
 			  </div>
             )}
           </div>

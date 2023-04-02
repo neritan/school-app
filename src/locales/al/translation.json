@@ -1,29 +1,68 @@
 {
 
-    "about.1": "Ne e bëjmë përsëri të lehtë matematikën/testet.",
-    "about.2": "Ejani të studioni me ne + “qëlloni” provimin tuaj!",
-    "about.3": "Ne jemi (XXX) një mjet testimi i standardizuar në internet që ofron përmbajtje praktike dhe mësimore për provimet e Matures dhe Mini-matures në të gjithë Evropën.",
-    "about.4": "Ne jemi asistenti më i mirë i një mësuesi jashtë klasës, i besuari më i besueshëm i një prindi, burimi i dobishëm i student gjatë gjithë vitit dhe i testimit \"praktik\" në provimet e matematikës",
-    "teacher": "Mesues",
-    "student": "Nxenes",
-    "parent": "Prind",
-    "select_language": "Zgjidh gjuhen",
-
-    "a0001": "Jepet numri 35,78. Shifra 7 tregon vlerën e:",
-    "a0001.A": "njësheve",
-    "a0001.B": "dhjetësheve",
-    "a0001.C": "të dhjetave",
-    "a0001.D": "të qindtave",
-
-    "a0002": "Shprehja -2xy+5yx-2yx është e njëvlefshme me:",
-    "a0002.A": "2xy",
-    "a0002.B": "5yx",
-    "a0002.C": "2yx",
-    "a0002.D": "xy",
-
-
-    "video.a0001": "VtHWsmES9yw",
-    "video.a0002": "ZqFDy2prfSk",
-    "video.a0003": "Ddd7fr61ONc",
-    "video.a0004": "AN6tpOQq_I0"
-}
+        "about.1": "Ne e bëjmë përsëri të lehtë matematikën/testet.",
+        "about.2": "Ejani të studioni me ne + “qëlloni” provimin tuaj!",
+        "about.3": "Ne jemi (XXX) një mjet testimi i standardizuar në internet që ofron përmbajtje praktike dhe mësimore për provimet e Matures dhe Mini-matures në të gjithë Evropën.",
+        "about.4": "Ne jemi asistenti më i mirë i një mësuesi jashtë klasës, i besuari më i besueshëm i një prindi, burimi i dobishëm i student gjatë gjithë vitit dhe i testimit \"praktik\" në provimet e matematikës",
+        "teacher": "Mesues",
+        "student": "Nxenes",
+        "parent": "Prind",
+        "select_language": "Zgjidh gjuhen",
+    
+        "a0001": "Jepet numri 35,78. Shifra 7 tregon vlerën e:",
+        "a0001.A": "njësheve",
+        "a0001.B": "dhjetësheve",
+        "a0001.C": "të dhjetave",
+        "a0001.D": "të qindtave",
+    
+        "a0002": "Shprehja -2xy+5yx-2yx është e njëvlefshme me:",
+        "a0002.A": "2xy",
+        "a0002.B": "5yx",
+        "a0002.C": "2yx",
+        "a0002.D": "xy",
+    
+    
+        "video.a0001": "ClgCcyg9zyg",
+        "video.a0002": "WCmnGKgl6yc",
+        "video.a0003": "EdKLUwl99Gs",
+        "video.a0004": "OkJIr51dcx4",
+    
+        
+        "menu.main": "Kryesor",
+        "menu.typeOfUser": "Lloji i perdoruesit",
+        "menu.teacher": "Mesues",
+        "menu.student": "Student",
+        "menu.parent": "Prind",
+        "menu.sampleTest": "Test moster",
+        "menu.signUp": "Regjistrim",
+        "menu.generalDetail": "Detaje te pergjithshme",
+        "menu.paymentDetails": "Detaje te pageses",
+        "menu.signIn": "Hyni",
+    
+        
+        "language.english": "EN",
+        "language.albanian": "AL",
+        "language.italian": "IT",
+        "language.french": "FR",
+        "language.german": "GR",
+    
+    
+        "person.name": "Emer",
+        "person.surname": "Mbiemer",
+        "person.email": "Email",
+        "person.birthday": "Ditelindja",
+        "person.location": "Vendodhje",
+        "person.pswd": "Password",
+        "person.grade": "Klasa",
+        "person.typeofshcool": "Lloji i shkolles",
+    
+    
+        "card.cardholdername": "Emri i mbajtesit te kartes",
+        "card.cardholderaddress": "Adresa e mbajtesit te kartes",
+        "card.cardtype": "Lloji i kartes",
+        "card.cardnumber": "Nurmi i kartes",
+        "card.cvc": "CVC",
+        "card.3dcode": "Kodi 3d"
+    
+    
+    }

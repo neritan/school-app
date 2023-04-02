@@ -10,6 +10,8 @@ import Home from "./component/home";
 import Test from "./component/test";
 import "./component/i18nextInit";
 import Singletest from "./component/singleTest";
+import { Register } from "./component/user/register";
+import { Auth } from "./component/user/Auth";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/test' element={<Test/>}/>
           <Route path='/singletest' element={<Singletest/>}/>
           <Route path="/" element={<Home/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/auth" element={<Auth/>} />
         </Routes>
       </BrowserRouter>
     </div>
